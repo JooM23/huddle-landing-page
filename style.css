@@ -1,0 +1,270 @@
+
+/*
+- Pink: hsl(322, 100%, 66%)
+- Light Pink: hsl(321, 100%, 78%)
+- Light Red: hsl(0, 100%, 63%)
+- Very Dark Cyan: hsl(192, 100%, 9%)
+- Very Pale Blue: hsl(207, 100%, 98%)
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    font-family: 'Poppins';
+    color: hsl(192, 100%, 9%);
+}
+
+p {
+    font-family: 'Open Sans';
+}
+
+.container-fluid {
+    padding: 4%;
+}
+
+.logo {
+    width: 15%;
+}
+
+.tryIt {
+    border: 1px solid hsl(321, 100%, 78%);
+    color: hsl(321, 100%, 78%);
+    border-radius: 25px;
+    width: 8rem;
+    position: absolute;
+    right: 4rem;
+}
+
+.title {
+    text-align: center;
+    margin-top: 10rem;
+}
+
+.title h1 {
+    margin-bottom: 2rem;
+}
+
+.title p{
+    width: 40%;
+    margin: auto;
+    margin-bottom: 2rem;
+}
+
+.getStarted {
+    color: white;
+    background-color: hsl(322, 100%, 66%);
+    border-radius: 25px;
+    width: 25%;
+    height: 4rem;
+    margin-bottom: 8rem;
+}
+
+.mockUp {
+    text-align: center;
+    margin: auto;
+}
+
+.mockupImg {
+    width: 70%;
+}
+
+.icon1 {
+    position: relative;
+    right: 3.8rem;
+}
+
+.community {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.community h1 {
+    font-weight: 700;
+    font-size: 4rem;
+}
+
+.community p {
+    text-align: center;
+    color: grey;
+    margin-bottom: 10rem;
+}
+
+.growTogether, .flowingConversations, .yourUsers {
+    margin-bottom: 8rem;
+    padding: 7%;
+}
+
+.growTogether h1, .flowingConversations h1, .yourUsers h1 {
+    margin-bottom: 2rem;
+}
+
+
+.growTogether img, .flowingConversations img, .yourUsers img {
+    width: 80%;
+}
+
+.ready {
+    text-align: center;
+}
+
+.ready h1 {
+    margin-bottom: 2rem;
+}
+
+.footer {
+    background-color: hsl(192, 100%, 9%);
+    color: white;
+    padding: 7%;
+}
+
+.footerImg {
+    width: 100%;
+}
+
+.footer h2, .footerLogo {
+    color: white;
+    margin-bottom: 1.5rem;
+}
+
+.footer h2 {
+    font-size: 1.5rem;
+}
+
+.footer p {
+    width: 66%;
+}
+
+.footerLogo {
+    font-size: 3rem;
+}
+
+.input, .subscribeBtn {
+    margin-top: 1rem;
+    height: 3rem;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.subscribeBtn {
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+}
+
+.footerIcons {
+    margin-top: 3rem;
+}
+
+.icons {
+    font-size: 2rem;
+    margin-right: 1rem;
+}
+
+
+/* -------------------------------------*/
+
+
+
+
+
+@media (min-width: 325px) and (max-width: 1000px) {
+
+    .img {
+        width: 100%;
+    }
+
+    .mockupImg {
+        margin-bottom: 5rem;
+    }
+
+    .growTogether, .flowingConversations, .yourUsers {
+        margin: auto;
+    }
+
+    .growTogether img, .flowingConversations img, .yourUsers img {
+        margin-bottom: 4rem;
+    }
+
+    .growTogether h1, .flowingConversations h1, .yourUsers h1 {
+        margin-bottom: 1.5rem;
+    }
+
+    .logo {
+        width: 40%;
+    }
+
+    .tryIt {
+        position: absolute;
+        right: 1rem;
+    }
+
+    .title h1 {
+        margin: auto;
+        margin-bottom: 2rem;
+    }
+
+    .title p, .title h1 {
+        width: 80%;
+        line-height: 1.5;
+    }
+
+    .getStarted {
+        margin-top: 1rem;
+        width: 60%;
+        font-size: 1rem;
+        font-weight: bold;
+        margin-bottom: 8rem;
+    }
+
+    .community h1 {
+        margin-bottom: 0.5rem;
+    }
+
+    .community p {
+        margin-bottom: 6rem;
+    }
+
+    .growTogether {
+        margin-top: 10rem;
+    }
+
+    .growTogether, .flowingConversations, .yourUsers {
+        text-align: center;
+        width: 102%;
+    }
+
+    .yourUsers {
+        margin-bottom:  8rem;
+    }
+
+    .div1 {order: 2;}
+    .div2 {order: 1;}
+
+    .div3 {order: 2;}
+    .div4 {order: 1;}
+
+    .footer p{
+        width: 85%;
+    }
+
+    .subscribeBtn {
+
+       width: 50%;
+       margin-bottom: 5rem;
+       
+    }
+
+    .col-lg-4 {
+        text-align: right;
+    }
+
+    .diff {
+        margin-bottom: 3rem;
+    }
+
+
+}
